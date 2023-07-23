@@ -1,0 +1,23 @@
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+  "name":"eeee",
+  "city":"yyyy",
+  "country":"vvv",
+  "street":"eeee",
+  "zip_code":"1234"
+}
+
+###
+
+POST http://localhost:5000/transitions
+Content-Type: application/json
+
+{
+  "name":"nnnnn",
+  "city":"zzzzz",
+  "country":"vvv",
+  "street":"eeee",
+  "zip_code":"1234"
+}
